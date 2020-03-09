@@ -768,6 +768,14 @@
     "label": "BTC/NMR"
   },
   {
+    "asset": "NMR",
+    "currency": "ETH",
+    "min_size": "0.53000000",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "label": "ETH/NMR"
+  },
+  {
     "asset": "LTC",
     "currency": "ETH",
     "min_size": "0.01253808",
@@ -2790,5 +2798,69 @@
     "max_size": "1000000",
     "increment": "0.00000001",
     "label": "BTC/VRA"
+  },
+  {
+    "asset": "ABBC",
+    "currency": "BTC",
+    "min_size": "30.00000000",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "label": "BTC/ABBC"
+  },
+  {
+    "asset": "FRSP",
+    "currency": "BTC",
+    "min_size": "150.00000000",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "label": "BTC/FRSP"
+  },
+  {
+    "asset": "WICC",
+    "currency": "BTC",
+    "min_size": "15.00000000",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "label": "BTC/WICC"
+  },
+  {
+    "asset": "WICC",
+    "currency": "USDT",
+    "min_size": "15.00000000",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "label": "USDT/WICC"
+  },
+  {
+    "asset": "NMR",
+    "currency": "USDT",
+    "min_size": "0.53000000",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "label": "USDT/NMR"
+  },
+  {
+    "asset": "DASH",
+    "currency": "USD",
+    "min_size": "0.02767746",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "label": "USD/DASH"
+  },
+  {
+    "asset": "RVN",
+    "currency": "USD",
+    "min_size": "75.98784195",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "label": "USD/RVN"
+  },
+  {
+    "asset": "DAI",
+    "currency": "USD",
+    "min_size": "3.00000000",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "label": "USD/DAI"
   }
 ]

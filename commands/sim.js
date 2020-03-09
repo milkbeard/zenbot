@@ -226,7 +226,7 @@ module.exports = function (program, conf) {
           console.log('wrote', out_target)
         }
 
-        simResults.replaceOne(options_output, options_output, {upsert: true})
+        simResults.insertOne(options_output)
           .then(() => {
             process.exit(0)
           })

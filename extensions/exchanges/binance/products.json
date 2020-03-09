@@ -8226,5 +8226,181 @@
     "increment": "0.00001000",
     "asset_increment": "0.10000000",
     "label": "RVN/BUSD"
+  },
+  {
+    "id": "STRATBUSD",
+    "asset": "STRAT",
+    "currency": "BUSD",
+    "min_size": "0.01000000",
+    "max_size": "900000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.00010000",
+    "asset_increment": "0.01000000",
+    "label": "STRAT/BUSD"
+  },
+  {
+    "id": "STRATBNB",
+    "asset": "STRAT",
+    "currency": "BNB",
+    "min_size": "0.10000000",
+    "max_size": "9000000.00000000",
+    "min_total": "0.10000000",
+    "increment": "0.00001000",
+    "asset_increment": "0.10000000",
+    "label": "STRAT/BNB"
+  },
+  {
+    "id": "STRATUSDT",
+    "asset": "STRAT",
+    "currency": "USDT",
+    "min_size": "0.01000000",
+    "max_size": "900000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.00010000",
+    "asset_increment": "0.01000000",
+    "label": "STRAT/USDT"
+  },
+  {
+    "id": "AIONBUSD",
+    "asset": "AION",
+    "currency": "BUSD",
+    "min_size": "0.01000000",
+    "max_size": "900000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.00010000",
+    "asset_increment": "0.01000000",
+    "label": "AION/BUSD"
+  },
+  {
+    "id": "AIONUSDT",
+    "asset": "AION",
+    "currency": "USDT",
+    "min_size": "0.01000000",
+    "max_size": "900000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.00010000",
+    "asset_increment": "0.01000000",
+    "label": "AION/USDT"
+  },
+  {
+    "id": "MBLBNB",
+    "asset": "MBL",
+    "currency": "BNB",
+    "min_size": "1.00000000",
+    "max_size": "9000000.00000000",
+    "min_total": "0.10000000",
+    "increment": "0.00000010",
+    "asset_increment": "1.00000000",
+    "label": "MBL/BNB"
+  },
+  {
+    "id": "MBLBTC",
+    "asset": "MBL",
+    "currency": "BTC",
+    "min_size": "1.00000000",
+    "max_size": "90000000.00000000",
+    "min_total": "0.00010000",
+    "increment": "0.00000001",
+    "asset_increment": "1.00000000",
+    "label": "MBL/BTC"
+  },
+  {
+    "id": "MBLUSDT",
+    "asset": "MBL",
+    "currency": "USDT",
+    "min_size": "1.00000000",
+    "max_size": "90000000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.00000100",
+    "asset_increment": "1.00000000",
+    "label": "MBL/USDT"
+  },
+  {
+    "id": "COTIBNB",
+    "asset": "COTI",
+    "currency": "BNB",
+    "min_size": "1.00000000",
+    "max_size": "9000000.00000000",
+    "min_total": "0.10000000",
+    "increment": "0.00000100",
+    "asset_increment": "1.00000000",
+    "label": "COTI/BNB"
+  },
+  {
+    "id": "COTIBTC",
+    "asset": "COTI",
+    "currency": "BTC",
+    "min_size": "1.00000000",
+    "max_size": "90000000.00000000",
+    "min_total": "0.00010000",
+    "increment": "0.00000001",
+    "asset_increment": "1.00000000",
+    "label": "COTI/BTC"
+  },
+  {
+    "id": "COTIUSDT",
+    "asset": "COTI",
+    "currency": "USDT",
+    "min_size": "0.10000000",
+    "max_size": "9000000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.00001000",
+    "asset_increment": "0.10000000",
+    "label": "COTI/USDT"
+  },
+  {
+    "id": "ALGOBUSD",
+    "asset": "ALGO",
+    "currency": "BUSD",
+    "min_size": "0.01000000",
+    "max_size": "900000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.00010000",
+    "asset_increment": "0.01000000",
+    "label": "ALGO/BUSD"
+  },
+  {
+    "id": "BTTBUSD",
+    "asset": "BTT",
+    "currency": "BUSD",
+    "min_size": "1.00000000",
+    "max_size": "90000000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.00000010",
+    "asset_increment": "1.00000000",
+    "label": "BTT/BUSD"
+  },
+  {
+    "id": "TOMOBUSD",
+    "asset": "TOMO",
+    "currency": "BUSD",
+    "min_size": "0.01000000",
+    "max_size": "900000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.00010000",
+    "asset_increment": "0.01000000",
+    "label": "TOMO/BUSD"
+  },
+  {
+    "id": "XMRBUSD",
+    "asset": "XMR",
+    "currency": "BUSD",
+    "min_size": "0.00001000",
+    "max_size": "900000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.01000000",
+    "asset_increment": "0.00001000",
+    "label": "XMR/BUSD"
+  },
+  {
+    "id": "ZECBUSD",
+    "asset": "ZEC",
+    "currency": "BUSD",
+    "min_size": "0.00001000",
+    "max_size": "900000.00000000",
+    "min_total": "10.00000000",
+    "increment": "0.01000000",
+    "asset_increment": "0.00001000",
+    "label": "ZEC/BUSD"
   }
 ]

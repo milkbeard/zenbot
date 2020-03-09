@@ -87,6 +87,8 @@ module.exports = function binance (conf) {
         }
         return result
       }).then(result => {
+	      console.log(result)
+
         var trades = result.map(trade => ({
           trade_id: trade.id,
           time: trade.timestamp,

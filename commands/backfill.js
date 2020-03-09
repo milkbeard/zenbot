@@ -87,11 +87,11 @@ module.exports = function (program, conf) {
           opts.offset = offset
         }
         last_batch_opts = opts
+	console.log(`Updating ${opts.product_id}`)
         exchange.getTrades(opts, function (err, results) {
           trades = results
           if (err) {
             console.error('err backfilling selector: ' + selector.normalized)
-            console.error(err)
             if (err.code === 'ETIMEDOUT' || err.code === 'ENOTFOUND' || err.code === 'ECONNRESET') {
               console.error('retrying...')
               setImmediate(getNext)
@@ -170,11 +170,7 @@ module.exports = function (program, conf) {
             diff = tb(marker.newest_time - newest_time).resize('1h').value
             console.log('\nskipping ' + diff + ' hrs of previously collected data')
           }
-          resume_markers.save(marker)
-            .then(setupNext)
-            .catch(function(err){
-              if (err) throw err
-            })
+            setupNext()
         }).catch(function(err){
           if (err) {
             console.error(err)
@@ -234,7 +230,7 @@ module.exports = function (program, conf) {
           marker.to = marker.to ? Math.max(marker.to, cursor) : cursor
           marker.newest_time = Math.max(marker.newest_time, trade.time)
         }
-        return tradesCollection.save(trade)
+        return tradesCollection.replaceOne(trade, trade, {upsert: true})
       }
     })
 }
